@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeenVerse</title>
+
+    <style>
+        body {
+            background-color: #101020;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #191932;
+            padding: 25px;
+        }
+
+        h1 {
+            color: #00eaff;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        .hero {
+            padding: 70px 20px;
+        }
+
+        .hero h2 {
+            font-size: 35px;
+        }
+
+        button {
+            background-color: #00eaff;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #242444;
+            padding: 25px;
+            width: 200px;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>TeenVerse 🚀</h1>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#gaming">Gaming</a>
+            <a href="#learning">Learning</a>
+            <a href="#money">Make Money</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to TeenVerse!</h2>
+        <p>Learn, Play, Create, and Grow.</p>
+        <button onclick="alert('Welcome to TeenVerse!')">
+            Explore Now
+        </button>
+    </section>
+
+    <section class="cards">
+
+        <div class="card" id="gaming">
+            <h3>🎮 Gaming</h3>
+            <p>Discover gaming tips and tricks.</p>
+        </div>
+
+        <div class="card" id="learning">
+            <h3>📚 Learning</h3>
+            <p>Learn new skills every day.</p>
+        </div>
+
+        <div class="card" id="money">
+            <h3>💰 Make Money</h3>
+            <p>Explore ways to earn money.</p>
+        </div>
+
+    </section>
+
+</body>
+</html>
